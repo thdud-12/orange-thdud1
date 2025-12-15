@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "Pretendard";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Regular.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pretendard";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Bold.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pretendard";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Black.woff2")
+    format("woff2");
+  font-weight: 900;
+  font-display: swap;
+}
+
+$color-main: rgb(255, 247, 227);
+$color-footer-bg: rgb(241, 243, 245);
+$border-b-c: rgb(232, 236, 239);
+$color-text-gray: rgb(133, 142, 150);
+$color-text-dark: rgb(78, 87, 94);
+$color-text-light: rgb(172, 181, 189);
+$radius: 1.2rem;
+$family-site-width: 20rem;
+
+html.oveflow-hidden,
+html.oveflow-hidden > body {
+  overflow-y: hidden;
+}
+
+html,
+body {
+  font-family: "Pretendard";
+  background-color: $color-main;
+  font-size: 62.5%;
+  // 	rem을 10px로 만드는 코드
+}
