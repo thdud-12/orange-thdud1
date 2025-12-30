@@ -9,6 +9,7 @@ const wrap = document.querySelector(".wrap");
 const mobileMenuBtn = document.getElementById("mobile-menu-btn");
 const mobileSideMenu = document.getElementById("mobile-side-menu");
 const mobileCloseBtn = document.getElementById("mobile-close-btn");
+const moListNav = document.querySelector(".mo-list-nav");
 
 // 메가메뉴 관련
 const menuItems = document.querySelectorAll(".menu-box .menu-item");
